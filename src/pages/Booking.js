@@ -101,7 +101,7 @@ export default function Booking() {
                     onChange={handleLastNameInputChange}
                     defaultValue={values.lastName} className="govuk-input govuk-input--width-20" type="text" required />
                 </label><br /></>}
-          {/* <input className="govuk-button" data-module="govuk-button" type="submit" value="Continue"/> */}
+
           <button onClick={handleSubmit} className="govuk-button" data-module="govuk-button">Continue</button>
           {submitted && values.firstName && values.lastName? <button>Continue</button>:null}
 
